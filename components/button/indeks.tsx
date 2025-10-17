@@ -20,10 +20,10 @@ export const ButtonDanger = ({ children, type, onClick, className }: Props) => {
     return (<button className={`${baseClasses} bg-red-600 text-white hover:bg-red-700 ${className}`} type={type} onClick={onClick}>{children}</button>);
 };
 export const ButtonSuccessOutline = ({ children, type, onClick, className }: Props) => {
-    return (<button className={`${baseClasses} bg-green-600 text-white hover:bg-green-700 hover:text-white ${className}`} type={type} onClick={onClick}>{children}</button>);
+    return (<button className={`${baseClasses} bg-purple-600 text-white hover:bg-purple-700 hover:text-white ${className}`} type={type} onClick={onClick}>{children}</button>);
 };
 export const ButtonDangerOutline = ({ children, type, onClick, className }: Props) => {
-    return (<button className={`${baseClasses} bg-yellow-500 text-white hover:bg-yellow-600 hover:text-white ${className}`} type={type} onClick={onClick}>{children}</button>);
+    return (<button className={`${baseClasses} bg-blue-600 text-white hover:bg-blue-700 hover:text-white ${className}`} type={type} onClick={onClick}>{children}</button>);
 };
 export const ButtonInfoOutline = ({ children, type, onClick, className }: Props) => {
     return (<button className={`${baseClasses} bg-blue-400 text-white hover:bg-blue-500 hover:text-white ${className}`} type={type} onClick={onClick}>{children}</button>);
